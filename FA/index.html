@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I'm Prajot Dabre, a Computer Engineer.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey Everyone! Here's my personal portfolio where you can know about my various projects and how to reach me. I am 20 years old and  currently pursuing my Bachelor's Degree in Engineering from Thakur College of Engineering and Technology.My hobbies include watching Movies and Sports as well as listening to Music </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Spotify Music Player Clone</h3>
+            <p>Developed a Spotify clone leveraging modern web technologies, featuring seamless music streaming and dynamic user interfaces. Integrated various frontend technologies like HTML,CSS and Javascript.Ensured responsive design and cross-platform compatibility for an optimal user experience. </p>
+        </div>
+        <div class="project">
+            <h3>Turf-Booking Website</h3>
+            <p>Built a turf booking website enabling users to easily reserve sports facilities online. Designed a user-friendly interface with real-time availability and booking confirmations. Implemented secure payment processing and an admin dashboard for turf management. Utilized HTML,CSS and Javascript for front-end development </p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
